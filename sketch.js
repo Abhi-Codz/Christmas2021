@@ -9,8 +9,8 @@ function preload()
 {
     //Loading animations
     treeAnimation = loadAnimation("TreeSnow.png", "TreeSnow1.png", "TreeSnow2.png", "TreeSnow3.png");
-    animationAnimation = loadAnimation("ChristmasSanta1.png", "ChristmasSanta2.png");
-    starAnimation = loadAnimation("get/ChristmasStar1.png", "get/ChristmasStar2.png");
+    animationAnimation = loadAnimation("../ChristmasSanta1.png", "../ChristmasSanta2.png");
+    starAnimation = loadAnimation("ChristmasStar1.png", "ChristmasStar2.png");
 
 }
 
