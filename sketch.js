@@ -9,11 +9,9 @@ function preload()
 {
     //Loading animations
     treeAnimation = loadAnimation("TreeSnow.png", "TreeSnow1.png", "TreeSnow2.png", "TreeSnow3.png");
-    starAnimation = loadAnimation("star.png", "star1.png");
     animationAnimation = loadAnimation("ChristmasSanta1.png", "ChristmasSanta2.png");
+    starAnimation = loadAnimation("get/ChristmasStar1.png", "get/ChristmasStar2.png");
 
-    //Loading sound
-   //  soundFire = loadSound("y2mate.com - FIREWORKS GREEN SCREEN AND SOUND EFFECTS.mp3");
 }
 
 function setup()
@@ -29,16 +27,16 @@ function setup()
     tree.addAnimation("maybe", treeAnimation);
     tree.scale = 0.4;
 
-    star = createSprite(280, 180);
-    star.addAnimation("coolkidswritecodes", starAnimation);
-    star.scale = 0.2;
-
     animation = createSprite(100, 520);
     animation.addAnimation("wink", animationAnimation);
     animation.scale = 0.3;
     animation = createSprite(450, 520);
     animation.addAnimation("wink", animationAnimation);
     animation.scale = 0.3;
+
+    star = createSprite(282, 180);
+    star.addAnimation("lol", starAnimation);
+    star.scale = 0.6;
 
     
 }
